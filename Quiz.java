@@ -71,7 +71,7 @@ public class Quiz extends javax.swing.JFrame {
         setResizable(false);
         setTitle("Questions - PyQuizz");
 
-        jLabel1.setFont(new java.awt.Font("Bauhaus 93", 0, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Algerian", 0, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("QUESTION");
@@ -128,7 +128,7 @@ public class Quiz extends javax.swing.JFrame {
                                 .addContainerGap())
         );
         Collections.shuffle(list);
-        jLabel1.setFont(new Font("Bauhaus 93", 0, 18));
+        jLabel1.setFont(new Font("Algerian", 0, 18));
         jLabel1.setText(list.get(questionIndex).question);
 
         jRadioButton1.setText(list.get(questionIndex).alternativa1);
@@ -180,7 +180,7 @@ public class Quiz extends javax.swing.JFrame {
         enableRbuttons(true);
 
         if (questionIndex < list.size()) {
-            jLabel1.setFont(new Font("Bauhaus 93", 0, 18));
+            jLabel1.setFont(new Font("Algerian", 0, 18));
             jLabel1.setText(list.get(questionIndex).question);
 
             jRadioButton1.setText(list.get(questionIndex).alternativa1);
